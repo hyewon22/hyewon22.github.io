@@ -3,44 +3,53 @@
 <head>
 	<title>20202268 김혜원</title>
 	<style type="text/css">
-		#page {width: 1020px; margin: auto; border: solid 0px #cccccc;}
-		header {width: 995px; height: 110px; margin-top: 10px; border: solid 1px #cccccc;}
-		#top {float: left; margin: 30px 20px 0 0;}
+		#page {width: 1020px; margin: auto; border: solid 0px #cccccc; background-color: #f0fff0;}
+		header {width: 995px; height: 110px; margin-top: 10px; border: solid 0px #cccccc;}
+		#top {font-size: 21px; text-decoration: underline; text-align: center; margin: 30px 20px 0 0;}
+		#top a {color: #758095;}
+		#top :hover {color: #a9a9a9;}
 		*{padding: 0; margin: 10px;}
 		li{list-style-type: none;}
-		.clear {clear: both;}
-		nav {width: 995px; height: 70; margin-top: 10px; padding-top: 10px; border: solid 1px #cccccc;}
-		nav li {text-align: center; display: inline; margin: 50px 30px;}
+		a {text-decoration: none;}
+		nav {width: 1030px; height: 43px; overflow: hidden; margin: 0px; padding: 0px; border: solid 0px #cccccc; background-color: #5f9ea0;}
+		nav li {text-align: left; display: inline; margin: 0px;}
+		nav li a {color: white; font-size: 12px;}
+		nav li a:hover {color: #cccccc;}
 		section {float: left; margin-top: 10px; border: solid 1px #cccccc;}
-		aside {float: right; margin-top: 28px; border: solid 1px #cccccc; margin-left: 5px; margin-right: 5px;} 
-		aside li {text-align: center; margin-bottom: 70px;}
-		footer {width: 995px; height: 100px; border-top: solid 1px #cccccc; margin-top: 20px; border: solid 1px #cccccc;}
+		aside {float: right; margin-top: 19px; border: solid 1px #cccccc; margin-left: 0px; margin-right: 0px; height: 400px;} 
+		aside li {text-align: center; font-size: 13px; margin-bottom: 10px;}
+		.artist {color: #696969;}
+		.artist img {overflow: hidden; transition: 0.5s; background: linear-gradient (to top, crimson, transparent);}
+		.artist img:hover {transform: translateY(-5px); box-shadow: 0 10px 20px rbga(0,0,0,0.2);}
+		.album {color: #696969;}
+		.album img {overflow: hidden; transition: 0.5s; background: linear-gradient (to top, crimson, transparent);}
+		.album img:hover {transform: translateY(-5px); box-shadow: 0 10px 20px rbga(0,0,0,0.2);}
 	</style>
 </head>
 <body id="page">
 	<header>
-		<div id="top"><a href="introduce.html" target="aa">내가 좋아하는 음악 장르</a></div>
+		<div id="top"><br><a href="introduce.html" target="aa"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;♬MY FAVORITE<br>MUSIC GENRE♪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></a></div>
 	</header>
 	<div class="clear"></div>
 	<nav>
 		<ul>
-			<li><a href="./nav01.html" target="aa">락</a></li>
-			<li><a href="./nav02.html" target="aa">시티팝</a></li>
-			<li><a href="./nav03.html" target="aa">하우스</a></li>
+			<li><a href="./nav01.html" target="aa">ROCK</a></li>
+			<li><a href="./nav02.html" target="aa">CITYPOP</a></li>
+			<li><a href="./nav03.html" target="aa">HOUSE</a></li>
 		</ul>
 	</nav>
 	<div class="clear"></div>
-	<iframe src="introduce.html" name="aa" width="800" height="300" scrolling="no" frameborder="0"></iframe>
-	<!-- <section><img src="./img/music.jpg" width="780"></section> -->
+	<iframe src="introduce.html" name="aa" width="800" height="800" scrolling="yes" frameborder="0"></iframe>
+	<!-- <section><img src="./img/musicnote.jpg" width="780"></section> -->
 	<aside>
 		<ul>
-			<li>좋아하는 아티스트</li>
-			<li>좋아하는 앨범</li>
+			<li class="artist"><b>FAVORITE ARTIST</b><br>
+				<a href="https://people.search.naver.com/search.naver?where=nexearch&query=%ED%9E%88%EB%8D%B0&sm=tab_etc&ie=utf8&key=PeopleService&os=99907" target="_blank"><img src="./img/hide.jpg" width="110"></a></li>
+				--------------------------
+			<li class="album"><b>FAVORITE ALBUM</b><br>
+				<a href="https://vibe.naver.com/album/120270" target="_blank"><img src="./img/psyence.jpg" width="110"></a></li>
 		</ul>
 	</aside>
 	<div class="clear"></div>
-	<footer>
-		<div>20202268 김혜원</div>
-	</footer>
 </body>
 </html>
